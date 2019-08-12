@@ -1,0 +1,27 @@
+.edit__button {
+  position: absolute;
+  bottom: -30px;
+  left: 185px;
+}
+
+@media screen and (max-width: 980px) {
+  .edit__button {
+    position: static;
+    margin-bottom: 40px;
+  }
+}
+
+.button1 {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 50px;
+  height: 20px;
+  font-size: 13px;
+  display: block;
+  cursor: pointer;
+}
+
+.button1:focus {
+  outline-color: greenyellow;
+}
